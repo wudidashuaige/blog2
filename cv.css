@@ -1,0 +1,170 @@
+/* 顶部导航栏开始 */
+
+.topNav {
+    height: 102px;
+    line-height: 102px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.l_logo {
+    float: left;
+    margin-left: 22px;
+}
+
+.l_logo a {
+    font-family: 'Arial Black';
+    font-size: 24px;
+}
+.l_logo a span:nth-child(1) {
+    margin-right: 6px;
+    color: rgb(230, 104, 106);
+}
+
+.l_logo a span:nth-child(2) {
+    color: rgb(157,157,162);
+}
+
+.r_nav {
+    float: right;
+
+}
+
+.r_nav li {
+    float: left;
+    width: 72px;
+}
+
+.r_nav li a {
+    font-size: 12px;
+}
+
+.r_nav li a:hover {
+    border-bottom: rgb(224, 101,103) solid 3px;
+    padding: 4px 0;
+}
+
+.r_nav a {
+    color: rgb(183, 183, 183);
+}
+
+/* 背景图片开始 */
+
+.banner {
+    height: 515px;
+    background: url(./img/rs-cover.jpg) center ;
+    background-size: cover;
+}
+
+.mask {
+    height: 515px;
+    background-color: rgba(0, 0, 0, 0.7);
+ }
+
+ /* 简历卡片开始 */
+
+ .userCard {
+     /* border: 1px solid red; */
+     max-width: 940px;
+     height: 523px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #FFFFFF;
+     /* padding: 50px;
+     box-sizing: border-box; */
+ 
+ }
+
+ .cardCenter {
+    padding: 50px;
+ }
+
+ .userCard .welcome {
+     background-color: #E6686A;
+     color: white;
+     display: inline-block;
+     padding: 4px 16px;
+     position: relative;
+     line-height: 22px;
+ }
+
+ .userCard .triangle {
+    border: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-left-color: #E6686A;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: block;
+    line-height: 22px;
+ }
+
+ .myPhoto {
+     float: left;
+ }
+
+ .cardText {
+     float: left;
+     margin-left: 65px;
+     width: 470px;
+ }
+
+ .userCard .name {
+     position: relative;
+     top: 10px;
+ }
+
+ .userCard dl dt,
+ .userCard dl dd {
+     float: left;
+     width: 50%;
+     margin-top: 10px;
+ }
+
+ .userCard dl dt {
+     font-weight: bold;
+ }
+
+ .userCard dl dd {
+     color: #9da0a7;
+ }
+
+ .userCard .cardFooter {
+     background-color: #e6686a;
+     height: 72px;
+     text-align: center;
+     
+ }
+
+ .cardFooter a {
+
+   display: inline-block;
+   width: 40px;
+   padding: 5px 0;
+   margin: 0 20px;
+   margin-top: 22px;
+   border-radius: 50%;
+   
+ }
+
+ .cardFooter a:hover {
+     background-color: rgb(207, 93, 95);
+ }
+
+ .cardFooter svg {
+     width: 30px;
+     height: 30px;
+     fill: white;
+     vertical-align: middle;
+
+     
+
+
+ }
+
+
+

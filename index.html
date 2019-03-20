@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./topNav.css">
     <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./cv.css">
     <title>我的博客</title>
+    <script src="//at.alicdn.com/t/font_1094083_6483vvmq3h6.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
 </head>
 <body>
+        
+    <!-- 顶部导航开始 -->
 <div class="topNav">
     
         <div class="l_logo">
@@ -27,5 +38,53 @@
         </div>
     
 </div>
+<!-- 背景图片开始 -->
+<div class="banner">
+    <div class="mask"></div>
+</div>
+<!-- 简历卡片开始 -->
+<div class="userCard ">
+    <div class="cardCenter clearfix">
+        <div class="myPhoto">
+            <img src="./img/avatar.jpg" alt="我的照片" title="照片">
+        </div>
+        <div class="cardText ">
+            <span class="welcome">hello
+                <span class="triangle"></span>
+            </span>
+            <h1 class="name">方应航</h1>
+            <p>前端开发工程师</p>
+            <hr>
+            <dl>
+                <dt>年龄</dt>
+                <dd>18</dd>
+                <dt>所在城市</dt>
+                <dd>北京</dd>
+                <dt>邮箱</dt>
+                <dd>@qq.com</dd>
+                <dt>手机</dt>
+                <dd>13812345678</dd>
+            </dl>
+        </div>
+        
+    </div>
+    <div class="cardFooter">
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+                </svg>
+            </a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-zhihu-square"></use>
+                </svg>
+            </a>
+            
+        </div>
+    
+</div>
+
 </body>
 </html>

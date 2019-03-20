@@ -3,5 +3,15 @@ ul,ol,dl,h1,h2,h3,h4,h5,h6,body,div,html,li,dl,dt,dd,a{
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background: rgb(0,0,0);
 }
+
+body {
+    background: #EFEFEF;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }

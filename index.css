@@ -1,0 +1,353 @@
+/* 顶部导航栏开始 */
+
+.top_nav {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* padding: 0 16px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.top_nav-center {
+    padding: 0 16px;
+}
+
+.l_nav {
+    float: left;
+    font-family: 'Arial Black';
+    margin: 3px 0 4px 0;
+}
+
+.l_nav a span:nth-child(1) {
+    font-size: 24px;
+    color: #E6686A;
+    margin-right: 4px;
+}
+
+.l_nav a span:nth-child(2) {
+    font-size: 24px;
+    color: #9D9DA2;
+}
+
+.r_nav {
+    float: right;
+    margin: 6px 0 2px 0;
+}
+
+.r_nav li {
+    float: left;
+    font-size: 12px;
+    padding: 0 17px;
+}
+
+.r_nav li a {
+    color: #B7B7B7;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+    padding: 5px 0;
+    display: block;
+    /* padding: 0 17px; */
+}
+
+.r_nav li a:hover {
+    border-bottom: 3px solid #E06567;
+}
+
+/* 中间背景图片开始 */
+
+.banner {
+    height: 515px;
+    background: url(./img/rs-cover.jpg);
+    background-size: cover;
+}
+
+.banner .mask {
+    height: 515px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+/* 小卡片开始 */
+
+.bigUserCard {
+    margin-top: -340px;
+}
+
+.userCard {
+    max-width: 940px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    background-color: #FFF;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);
+}
+
+.picture {
+    width: 299px;
+    height: 347px;
+    float: left;
+}
+
+/* 卡片左边和右边 */
+
+.pictureAddText {
+    padding: 50px;
+}
+
+/* 小卡片右边开始 */
+
+.cardText {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+
+.welcome {
+    background: #E6686A;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 4px 15px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.welcome .Triangle {
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: block;
+    border: 5px solid #E6686A;
+    width: 0px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.myName {
+    margin-bottom: 6px;
+}
+
+.cardText hr {
+    margin: 20px 0;
+}
+
+.cardText dl dd, .cardText dl dt {
+    float: left;
+    width: 50%;
+    padding: 5px 0;
+}
+
+.cardText dl dd {
+    color: #9da0a7;
+}
+
+.cardText dl dt {
+    font-weight: bold;
+}
+
+/* 卡片底部 */
+
+.media {
+    background: #E6686A;
+    text-align: center;
+}
+
+.media a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 16px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+}
+
+.media a:hover {
+    background: #CF5D5F;
+}
+
+.media svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+/* 下载按钮 */
+.downloadResume-wrapper {
+    text-align: center;
+}
+
+.downloadResume {
+    font-size: 14px;
+    padding: 21px 55px;
+    display: inline-block;
+    border: 1px solid #CBCBCB;
+    border-radius: 4px;
+    margin: 32px 0;
+    font-weight: bold;
+}
+
+.downloadResume:hover {
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+/* 自我介绍开始 */
+
+.self_introduction {
+    text-align: center;
+    line-height: 35px;
+    font-family: "楷体";
+    font-size: 25px;
+}
+
+/* 技能开始 */
+.skill {
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.skill h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.skill ol {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    padding-bottom: 0px;
+}
+
+.skill ol li {
+    float: left;
+    width: 50%;
+    margin-bottom: 36px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.skill ol li:nth-child(even) {
+    padding-right: 0px;
+}
+
+.skill h4 {
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+}
+/* 进度条 */
+
+.skill .progress_bar {
+    /* border: 1px solid red; */
+    height: 5px;
+    background: #FAE1E1;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.skill .progress {
+    background: #E6686A;
+    height: 100%;
+    width: 50%;;
+    border-radius: 3px;
+}
+
+/* 作品集开始 */
+.portfolio {
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.portfolio ul {
+    display: inline-block;
+    /* border: 1px solid red; */
+    vertical-align: top;
+}
+
+.portfolio nav {
+    text-align: center;
+}
+
+.portfolio li {
+    float: left;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+/* 导航条 */
+.portfolio nav .bar {
+    background: #FFF;
+    width: 216px;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.bar-inner {
+    height: 100%;
+    background: #E6686A;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.portfolio nav .bar.state1 .bar-inner {
+    margin-left: 0;
+    width: 40px;
+
+}
+
+.portfolio nav .bar.state2 .bar-inner {
+    margin-left: 60px;
+    width: 40px;
+}
+
+.portfolio nav .bar.state3 .bar-inner {
+    margin-left: 124px;
+    width: 92px;
+}
+
+ /* 照片开始 */
+ .portfolio .job {
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    /* border: 1px solid red; */
+    height: 597px;
+ }
+
+ .portfolio .job .big,
+ .portfolio .job .small {
+     position: absolute;
+ }
+
+ .portfolio .job div:nth-child(2){
+     right: 0px;
+ }
+
+ .portfolio .job div:nth-child(3) {
+     right: 0px;
+     bottom: -4px;
+ }
+ 
